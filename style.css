@@ -1,0 +1,241 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 700px;
+    width: 100%;
+    background-image: url(section-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding-top: 150px;
+}
+.header h1{
+    font-size: 60px;
+    color: white;
+}
+.header p{
+    font-size: 18px;
+    color: white;
+    padding-bottom: 100px;
+}
+.donate-btn{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.donat-title{
+    text-align: center;
+    padding-top: 80px;
+}
+.donate-sec h1{
+    font-size: 60px;
+}
+.donate-sec p{
+    font-size: 20px;
+}
+.amount-sec{
+    display: flex;
+    padding-top: 50px;
+    width: 80%;
+    height: 30%;
+    margin: 5% auto;
+    margin-left: 17%;
+    text-align: center;
+    
+}
+.amount-parent{
+    width: 10%;
+    height: 80px;
+    background-color: #fafafa;
+    margin: 10px 50px;
+    padding-top: 20px;
+
+}
+#active{
+    border: 1px solid red;
+    background-color: #ffeeee;
+}
+.amount-sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.amount-sub button{
+    background-color: #FF5959;
+    border: none;
+    padding: 10px 40px;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+.sub-input input{
+    width: 100%;
+    padding: 10px 20px;
+    margin:10px 0 ;
+    color: gray;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    outline: none;
+}
+.flexible-container p{
+    line-height: 1.5;
+}
+.plan-title{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.plan-title h1{
+    font-size: 50px;
+}
+.plan-title p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.plan-box{
+    width: 80%;
+    display: flex;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    
+}
+.box{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+    
+}
+.box-1{
+    background-color:#edf5f6 ;
+    
+}
+.box-2{
+    background-color: #FF5959;
+}
+.box-3{
+    background-color: #fff4d6;
+}
+.flexible-container{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 60%;
+}
+.half-width p{
+    padding-bottom: 20px;
+}
+.contribute-btn{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    
+}
+.update-sec{
+    text-align: center;
+    padding-top: 50px;
+}
+.update-sec h1{
+    font-size: 50px;
+}
+.update-sec p{
+    font-size: 20px;
+}
+.subscribe-sec{
+    width: 50%;
+    background-color: #fff4d6;
+    margin-left: 20%;
+    margin-bottom: 80px;
+    padding: 50px 80px;
+}
+.subscribe-sec input{
+    width: 40%;
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    background-color: rgb(179, 167, 167);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-right: -5px;
+}
+.subscribe-sec button{
+    border: none;
+    padding: 10px 40px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    
+}
+.about-box{
+    width: 20%;
+    height: 20% ;
+    margin-left: 20px;
+    box-shadow: 10px 10px 30px gray;
+    text-align: left;
+    
+}
+.about-boxing{
+    padding-top: 50px;
+    text-align: left;
+}
+.about-title{
+    padding-top: 50px;
+}
+.about-title h2{
+    font-size: 40px;
+}
+.about-title p{
+    line-height: 2.5;
+}
+.fa{
+    font-size: 40px;
+    padding-top: 5px;
+}
+.extra{
+    padding-top: -50px;
+}
+.about-1{
+    background-color: rgb(201, 216, 211);
+    
+}
+.about-2{
+   background-color: #ff595957;
+}
+.about-3{
+    background-color: rgba(42, 161, 165, 0.37);
+}
+.about-4{
+    background-color: rgba(151, 42, 165, 0.192);
+}
+.flexible-container h2{
+    font-size: 40px;
+}
+footer{
+    text-align: center;
+    background-color: #000;
+    
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+footer h2{
+    color: #FF5959;
+}
+footer p{
+    color: gray ;
+}
